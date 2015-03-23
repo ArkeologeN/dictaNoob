@@ -1,11 +1,30 @@
 {
   "name": "dictaNoob",
   "version": "0.1.0",
-  "description": "",
+  "description": "CLI fun application using words IQ and earn coins!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Hamza Waqas <hamzawaqas.programmer@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArkeologeN/dictaNoob.git"
+  },
+  "keywords": [
+    "dictaNoob",
+    "words",
+    "crosswords",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/ArkeologeN/dictaNoob/issues"
+  },
+  "homepage": "https://github.com/ArkeologeN/dictaNoob",
+  "dependencies": {
+    "asciimo": "^0.3.1",
+    "lodash": "^3.5.0",
+    "prompt": "^0.2.14"
+  }
 }
